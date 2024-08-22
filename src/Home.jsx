@@ -14,7 +14,7 @@ import Row9 from './Row9'
 function Home() {
   return (
     <div className=' w-full grid items-center justify-center bg-[whitesmoke] '>
-        <div className=' w-[90vw] flex flex-col bg-white '>
+        <div className=' lg:w-[90vw] md:w-[90vw] w-[100vw] flex flex-col bg-white  '>
         <Header />
         <Menu />
         <Row1 />
