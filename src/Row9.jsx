@@ -11,7 +11,7 @@ function Row9() {
       <div className='  grid items-center justify-center '>
         <div className='  lg:h-[35vh] md:h-[40vh] lg:w-[80vw] w-[80vw] h-[85vh] grid lg:grid-cols-4 md:grid-cols-2  gap-2  '>
 
-          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r border-sky-100  lg:h-[35vh]  '>
+          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r md:border-none border-b-2 border-sky-100  lg:h-[35vh]  '>
               <div className='  grid items-center justify-center lg:justify-start  '>
                 <p className=' text-xl font-bold pl-2 '> About</p>
               </div>
@@ -22,7 +22,7 @@ function Row9() {
               </div>
           </div>
 
-          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r border-sky-100 '>
+          <div className='  grid grid-rows-[0.8fr_2fr]  md:border-none border-b-2 lg:border-r border-sky-100 '>
               <div className='  grid items-center justify-center lg:justify-start '>
                 <p className=' text-xl font-bold pl-2 '> Policy</p>
               </div>
@@ -33,7 +33,7 @@ function Row9() {
               </div>
           </div>
 
-          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r border-sky-100 '>
+          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r-2 md:border-none border-b-2 border-sky-100 '>
               <div className='  grid items-center justify-center lg:justify-start '>
                 <p className=' text-xl font-bold pl-2 '> Help</p>
               </div>
@@ -44,7 +44,7 @@ function Row9() {
               </div>
           </div>
           
-          <div className='  grid grid-rows-[0.8fr_2fr] lg:border-r border-sky-100 '>
+          <div className='  grid grid-rows-[0.8fr_2fr] border-sky-100 '>
               <div className='  grid items-center justify-center lg:justify-start '>
                 <p className=' text-xl font-bold pl-2 '> Contact</p>
               </div>
