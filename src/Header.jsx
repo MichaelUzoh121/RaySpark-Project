@@ -21,7 +21,7 @@ function Header() {
                 </div>
             </div>
             <div className='  grid items-center justify-end pr-3 grid-cols-[2fr_0.5fr]  '>
-                <div className=' flex gap-5 hidden md:flex lg:flex justify-end '>
+                <div className=' flex gap-5 md:flex lg:flex justify-end '>
                     <button className=' h-7 w-7 bg-slate-200 rounded grid items-center justify-center '>
                     <GoHome />
                     </button>
