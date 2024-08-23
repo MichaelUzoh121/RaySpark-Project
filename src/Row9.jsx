@@ -50,11 +50,11 @@ function Row9() {
               </div>
               <div className=' grid grid-rows-[2fr_1fr] '>
               <div className=' grid items-center justify-center text-base font-semibold text-center '>
-                <a href="mailto:uzohmichael06@gmail.com"></a>
-                <a href="tel:+2349015517032"></a>
+                <a href="mailto:uzohmichael06@gmail.com">uzohmichael06@gmail.com</a>
+                <a href="tel:+2349015517032">+234-901-551-7032</a>
               </div>
               <div className='  grid  '>
-                <div className='  grid grid-cols-3 gap-2 p-1  '>
+                <div className='  grid grid-cols-4 gap-2 p-1  '>
                   <div className=' shadow-md rounded-3xl grid items-center justify-center '>
                     <a href="https://www.instagram.com/michaeltheecoder" className=' text-xl '><FaInstagram /></a>
                   </div>
