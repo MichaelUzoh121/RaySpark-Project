@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 function Row9() {
   return (
@@ -49,20 +50,22 @@ function Row9() {
               </div>
               <div className=' grid grid-rows-[2fr_1fr] '>
               <div className=' grid items-center justify-center text-base font-semibold text-center '>
-                <p>rayspark@yahoo.com</p>
-                <p>rayspark@info.com</p>
-                <p>+1 (215) 470-4080</p>
+                <a href="mailto:uzohmichael06@gmail.com"></a>
+                <a href="tel:+2349015517032"></a>
               </div>
               <div className='  grid  '>
                 <div className='  grid grid-cols-3 gap-2 p-1  '>
                   <div className=' shadow-md rounded-3xl grid items-center justify-center '>
-                    <p className=' text-xl '><FaInstagram /></p>
+                    <a href="https://www.instagram.com/michaeltheecoder" className=' text-xl '><FaInstagram /></a>
                   </div>
                   <div className=' shadow-md rounded-3xl grid items-center justify-center '>
-                    <p className=' text-xl '><FaFacebook /></p>
+                    <a href="https://www.facebook.com/profile.php?id=61553010851766" className=' text-xl '><FaFacebook /></a>
                   </div>
                   <div className=' shadow-md rounded-3xl grid items-center justify-center '>
-                    <p className=' text-xl '><FaXTwitter /></p>
+                    <a href="https://x.com/michaelthecode" className=' text-xl '><FaXTwitter /></a>
+                  </div>
+                  <div className=' shadow-md rounded-3xl grid items-center justify-center '>
+                    <a href="www.linkedin.com/in/michael-uzoh-b035b92b6" className=' text-xl '><FaLinkedin /></a>
                   </div>
                   {/* <div className=' shadow-md rounded-3xl grid items-center justify-center '>
                     <p className=' text-xl '><FaYoutube /></p>
