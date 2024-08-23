@@ -8,8 +8,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
   return (
-    <div className=' grid lg:h-[15vh] w-[90vw] h-[8vh] items-center justify-center '>
-        <div className=' grid  h-[10vh] w-[90vw]  grid-cols-[1fr_2.5fr_1fr] md:grid-cols-[0.5fr_2fr_1fr] lg:grid-cols-[0.5fr_2fr_1fr]   '>
+    <div className=' grid lg:h-[15vh] md:h-[15vh] sm:h-[15vh] lg:w-[90vw] md:w-[90vw] sm:w-[90vw] w-[100vw] h-[10vh] items-center justify-center  '>
+        <div className=' grid  lg:h-[10vh] md:h-[10vh] h-[8vh] lg:w-[90vw] md:w-[90vw] sm:w-[90vw] w-[100vw]  grid-cols-[1fr_2.5fr_1fr] md:grid-cols-[0.5fr_2fr_1fr] lg:grid-cols-[0.5fr_2fr_1fr]   '>
             <div className=' grid items-center  '>
                 <img src={first} className=' h-[60px] ' />
                 {/* <div className=' bg-[url(./raysimg/rayslogo.png)] bg-contain  bg-no-repeat grid self-center '></div> */}
