@@ -9,7 +9,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Header() {
   return (
     <div className=' grid lg:h-[15vh] md:h-[15vh] sm:h-[15vh] lg:w-[90vw] md:w-[90vw] sm:w-[90vw] w-[100vw] h-[10vh] items-center justify-center  '>
-        <div className=' grid  lg:h-[10vh] md:h-[10vh] h-[8vh] lg:w-[90vw] md:w-[90vw] sm:w-[90vw] w-[90vw]  grid-cols-[1fr_2.5fr_1fr] md:grid-cols-[0.5fr_2fr_1fr] lg:grid-cols-[0.5fr_2fr_1fr]   '>
+        <div className=' grid  lg:h-[10vh] md:h-[10vh] h-[8vh] lg:w-[90vw] md:w-[90vw] sm:w-[90vw] w-[90vw] grid-cols-[1fr_2.5fr_1fr] md:grid-cols-[0.5fr_2fr_1fr] lg:grid-cols-[0.5fr_2fr_1fr]   '>
             <div className=' grid items-center  '>
                 <img src={first} className=' h-[60px] ' />
                 {/* <div className=' bg-[url(./raysimg/rayslogo.png)] bg-contain  bg-no-repeat grid self-center '></div> */}
@@ -21,7 +21,7 @@ function Header() {
                 </div>
             </div>
             <div className='  grid items-center justify-end pr-3 grid-cols-[2fr_0.5fr]  '>
-                <div className=' flex gap-5 md:flex lg:flex justify-end '>
+                <div className=' sm:flex hidden gap-5 md:flex lg:flex justify-end '>
                     <button className=' h-7 w-7 bg-slate-200 rounded grid items-center justify-center '>
                     <GoHome />
                     </button>
